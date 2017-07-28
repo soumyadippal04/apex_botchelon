@@ -1,0 +1,9 @@
+{
+  "ownerID": "yourIDgoesHere",
+  "token": "yourbotTokenGoesHere",
+  "prefix": "yourprefixGoesHere",
+  "modRoleName": "modRoleName for kick/ban commands",
+  "adminRoleName": "adminRoleName",
+  "imgflip_username": "IMGFLIP username",
+  "imgflip_password": "imgflip pw"
+}
