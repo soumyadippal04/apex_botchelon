@@ -6,6 +6,7 @@ exports.run = async(client, msg) => {
   .setDescription(`Is a member in ${msg.guild.name}`)
   .addField('Joined discord', msg.author.createdAt.toLocaleString(), true)
   .addField(`Joined ${msg.guild.name}`, msg.member.joinedAt.toLocaleString(), true)
+  .addField('Roles', msg.member.roles.map(r => r.name).join(", "))
   .setTimestamp()
   //command currently only works for the author
 
